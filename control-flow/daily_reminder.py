@@ -12,7 +12,7 @@ match priority:
     
 if time_bound == "yes":
     reminder = f"Reminder: '{task}' is a {priority} priority task that requires immediate attention today!"
-    print(reminder)
 else :
     reminder = f"Note: '{task}' is a {priority} priority task. Consider completing it when you have free time."
-    print(reminder)
+
+print(reminder)
