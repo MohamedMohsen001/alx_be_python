@@ -17,7 +17,7 @@ def main():
             shopping_list.append(item)
         elif choice == '2':
             # Prompt for and remove an item
-            remove = str(input("Enter the item to remove:"))
+            remove = input("Enter the item to remove:")
             for i in shopping_list:
                 if i == remove:
                     print("Removed Item Successfully")
