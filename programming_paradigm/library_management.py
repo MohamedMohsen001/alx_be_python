@@ -8,6 +8,9 @@ class Book:
 class Library:
     _books =  []
     
+    def __init__(self):
+        pass
+    
     def add_book(self, book):
         self._books.append(book)
     
